@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+}
+.navContainer{
+    display: flex;
+    justify-content: center;
+    background: #002e5d;
+}
+.navContainerTwo{
+    width: 100%;
+    background: #002e5d;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainerThree{
+    width: 100%;
+    background: #00303F;
+    display: flex;
+    justify-content: center;
+}
+
+.myNav{
+display: flex;
+justify-content: center;
+align-items: center;
+background: #002e5d;
+height: 80px;
+width: 80%;
+margin: auto;
+}
+.hiddenLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 20px;
+}
+.link:hover, .link:active, .link:focus{
+    color: #D6EFED;
+}
+.activ, .leftSide{
+    margin-right: auto;
+}
+.logoNav{
+    height: 60px;
+    margin: 0;
+}
+.logoNavTwo{
+    height: 40px;
+    margin: 0;
+}
+.burgerIcon, .whiteBar{
+    color: #ffffff;
+}
+.navNav{
+    background: #002e5d;
+    color: #ffffff;
+}
+.rightSide{
+    margin-left: auto;
+}
+
+.langue-selector{
+    background: rgba(0, 48, 63, 0.5);
+    border: 2px solid #ededed;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.langue-selector:hover{
+    border: 2px solid #B2C8DF;
+}
+.flagIcon{
+    height: 20px;
+}
+footer{
+    background: #00303F;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+.footerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 10px;
+    border-left: 1px solid #ededed;
+    flex: 1;
+    margin: 0 50px;
+}
+.flexTwo{
+    flex : 2;
+}
+.footerlink{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.footerlink:hover, .footerlink:active, .footerlink:focus{
+    color: #D6EFED;
+}
+.center{
+    align-self: center;
+}
+@media all and (max-width:950px) {
+    .myNav{
+        height: auto;
+    }
+    .myNav, .hiddenLinks{
+        flex-direction: column;
+        width: 100%;
+    }
+    .activ, .link{
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+.navContainerTwo, .navContainerThree{
+    display: inline-block;
+}
+.footerContainer{
+    flex-direction: column;
+}
+.footerText{
+    margin: 5px 0;
+}
+.footerLinks{
+    border-left: none;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media all and (max-width:330px) {
+    .logoNav{
+        height: 40px;
+        margin: 0;
+    }
+}
