@@ -81,7 +81,8 @@ margin: auto;
     height: 20px;
 }
 footer{
-    background: #00303F;
+   /* background: #00303F; */
+    background: #002e5d;
     margin: 0;
     display: flex;
     flex-direction: column;
